@@ -24,7 +24,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
         if secretname == "secret1":
             secret1, name1, date1 = getsecretkey1()
-            return func.HttpResponse(f"Name1: {name1} secret1: {secret1} creation date: {date1 }")
+            return func.HttpResponse(f"Name1: {name1} secret1: {secret1} creation date: {date1}")
         elif secretname == "secret2":
             secret2, name2, date2 = getsecretkey2()
             return func.HttpResponse(f"Name2: {name2} secret2: {secret2} creation date: {date2}")
@@ -52,9 +52,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 #################
 
 
-TENANT_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-CLIENT_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-CLIENT_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxx'
+TENANT_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+CLIENT_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+CLIENT_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 
 ########################################
